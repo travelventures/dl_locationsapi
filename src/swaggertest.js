@@ -1,3 +1,7 @@
+/* 
+This file is only for testing purposes.
+It is to test the implementation from swagger.
+*/
 const express = require("express");
 const app = express();
 const swaggerJsDoc = require("swagger-jsdoc");

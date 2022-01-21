@@ -12,22 +12,12 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-//app.use((req, res, next) => {
-//  req.context = {
-//    models,
-//    me: models.users[1],
-//  };
-//  next();
-//});
-
-// API ROUTES //
-
+// API routes
 app.use('/locations', routes.locations)
 
-// SERVER START //
-
+// server start
 app.listen(process.env.PORT, () =>
-  console.log("deine-Landschaft"),
+  console.log("deine-Landschaft locations API"),
   console.log(""),
   console.log(`Server listening on: http://localhost:${process.env.PORT}`),
 );
