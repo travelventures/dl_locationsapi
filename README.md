@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/deine-Landschaft/dl-brand/raw/main/logo/deine-Landschaft_icon.png" width="75">
+    <img src="https://github.com/deine-Landschaft/dl-brand/blob/main/logo/deine-Landschaft_with_name.png?raw=true">
 </p>
 
 # deine-Landschaft public API
