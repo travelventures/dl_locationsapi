@@ -16,12 +16,12 @@ For this project you need to install these components:
 
 - [Git](https://git-scm.com/downloads)
 - [Node / NPM](https://nodejs.org/en/)
-- [Any Editor (VS Code)](https://code.visualstudio.com/)
+- [Any Editor (e.g. VS Codium)](https://vscodium.com/)
 
 ⚠️ On mac you can use [homebrew](https://brew.sh/) to install these components safely.
 
 ### Setup
-- rename the `.env.example` to `.env`
+- Rename the `.env.example` to `.env`
 - Please setup the global variables in the `.env` file. 
 
 ### Commands
