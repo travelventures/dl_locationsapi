@@ -39,4 +39,4 @@ class Category {
         return this.locations;
     }
 }
-module.exports.category = Category;
+export const category = Category;

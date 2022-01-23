@@ -75,4 +75,4 @@ class Location {
         return this.geo
     }
 }
-module.exports.location = Location;
+export const location = Location;

@@ -1,6 +1,6 @@
 class Geo {
 
-    constructor (lat, lon, city, country, countryCode){
+    constructor(lat, lon, city, country, countryCode) {
         this.lat = lat;
         this.lon = lon;
         this.city = city;
@@ -8,44 +8,44 @@ class Geo {
         this.countryCode = countryCode;
     }
 
-    getLocationLat() {
+    setLocationLat() {
         this.lat = lat;
     }
     
-    setLocationLat() {
+    getLocationLat() {
         return this.lat;
     }
 
-    getLocationLon() {
+    setLocationLon() {
         this.lon = lon;
     }
 
-    setLocationLon() {
+    getLocationLon() {
         return this.lon;
     }
 
-    getLocationCity() {
+    setLocationCity() {
         this.city = city;
     }
 
-    setLocationCity() {
+    getLocationCity() {
         return this.city;
     }
 
-    getLocationCountry() {
+    setLocationCountry() {
         this.country = country;
     }
 
-    setLocationCountry() {
+    getLocationCountry() {
         return this.country;
     }
 
-    getLocationCountryCode() {
+    setLocationCountryCode() {
         this.countryCode = countryCode;
     }
 
-    setLocationCountryCode() {
+    getLocationCountryCode() {
         return this.countryCode;
     }
 }
-module.exports.geo = Geo;
+export const geo = Geo;

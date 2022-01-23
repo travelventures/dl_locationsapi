@@ -1,10 +1,8 @@
 import { Router } from 'express';
+import { location, category, geo } from '../models';
 
 // init router for api routes
 const router = Router();
-var {location} = require('../models/location');
-var {category} = require('../models/category');
-var {geo} = require('../models/geo');
 
 // create test objects for testing.
 const geo1 = new geo('1.443', '3.2454', 'Blankenbach', 'Deutschland', 'DE');
