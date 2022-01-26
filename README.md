@@ -10,8 +10,6 @@ The public api delivers the locations for deine-Landschaft as middleware from th
 
 ## Installation
 ### Dev envioment
-> ⚠️ **Currently only Unix support**
-
 For this project you need to install these components:
 
 - [Git](https://git-scm.com/downloads)
@@ -25,9 +23,13 @@ For this project you need to install these components:
 - Please setup the global variables in the `.env` file. 
 
 ### Commands
-`npm install` install all npm components which needed.
+`npm install` to install all npm components which needed.
 
-`npm run dev` run the development server.
+`npm run dev` to run the development server.
+
+**On Windows**
+
+`npm run dev-windows` to run the development server.
 
 ## License
 This project use the GNU GPLv3. You can read it [here](./LICENSE)

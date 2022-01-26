@@ -13,7 +13,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // API routes
-app.use('/locations', routes.locations)
+app.use('/getAllLocations', routes.getAllLocations)
+app.use('/location', routes.location)
+app.use('/getAllDataByCountry', routes.getALlDataByCountry)
 
 // server start
 app.listen(process.env.PORT, () =>

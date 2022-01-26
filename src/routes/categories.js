@@ -12,23 +12,11 @@ const loc2 = new location(2, 'location', 'Berliner Tor', 'Freetime', 'Thuesday 2
 const testcategory = new category(1, 'category', 'Freetime', [loc1, loc2]);
 
 /* 
-* GET locations
-* get all locations where available
+* GET all categories
+* TODO: add support for this
 */
 router.get('/', (req, res) => {
-  return res.send(testcategory);
-});
-
-/* 
-* GET specific location
-* get a specific location from _Id
-*/
-router.get('/:locationsId', (req, res) => {
-  testcategory.locations.forEach(function (location) {
-    if (location._Id == req.params.locationsId) {
-      return res.send(location);
-    }
-  });
+  return null;
 });
 
 export default router;
